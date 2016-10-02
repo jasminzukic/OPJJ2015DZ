@@ -18,7 +18,7 @@ class ProgramListe {
 		CvorListe sljedeci;
 		String podatak;
 	}
-	/*Volim papati kite i ne znam programirati*/
+	
 	/**
 	 * Glavni program koji izvršava jedan primjer liste.
 	 * @param args ne korisiti se
