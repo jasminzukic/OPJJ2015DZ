@@ -18,7 +18,7 @@ class ProgramListe {
 		CvorListe sljedeci;
 		String podatak;
 	}
-	
+	/*Volim papati kite i ne znam programirati*/
 	/**
 	 * Glavni program koji izvršava jedan primjer liste.
 	 * @param args ne korisiti se
@@ -48,6 +48,7 @@ class ProgramListe {
 	/**
 	 * Metoda koja ispisuje veličinu zadane liste 
 	 * @param cvor prvi čvor u listi
+	 * Ja sam cigan
 	 * @return veličina liste
 	 */
 	static int velicinaListe(CvorListe cvor) {
