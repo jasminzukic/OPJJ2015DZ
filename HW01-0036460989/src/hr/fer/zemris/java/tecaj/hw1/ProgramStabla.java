@@ -3,7 +3,7 @@ package hr.fer.zemris.java.tecaj.hw1;
 /**
  * Ovaj razred predstavlja binarno stablo. Sadrži metode za ubacivanje u stablo,
  * ispis svih podataka inorder, ispis veličine stabla te provjeru sadržaja stabla.
- * @author saaffa
+ * @author Jasmin Zukić
  *
  */
 class ProgramStabla {

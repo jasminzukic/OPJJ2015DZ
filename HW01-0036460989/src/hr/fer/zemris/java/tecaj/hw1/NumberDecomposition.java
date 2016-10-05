@@ -2,18 +2,18 @@ package hr.fer.zemris.java.tecaj.hw1;
 
 /**
  * Decomposes a number higher than 2 onto its prime factors.
- * @author saaffa
+ * @author Jasmin Zukić
  *
  */
 public class NumberDecomposition {
 	
 	/**
-	 * Main method that does the decomposition onto prime numbers 
+	 * Main method that does the decomposition onto prime numbers. Expects one argument from 
+	 * the command line. Other arguments are ignored.
 	 * @param args Number that needs to be decomposed.
 	 */
 	public static void main(String[] args) {
-		//TODO ako nema argumenata
-		if(args[0] == null) {
+		if(args.length == 0) {
 			System.out.println("No arguments given. Try a number bigger or equal than 2.");
 			return;
 		}

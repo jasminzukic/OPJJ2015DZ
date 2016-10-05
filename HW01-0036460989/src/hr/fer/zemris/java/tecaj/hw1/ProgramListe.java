@@ -4,7 +4,7 @@ package hr.fer.zemris.java.tecaj.hw1;
 /**
  * Osnovni program koji radi sa listama. Sadrži metode za ispis veličine liste, za sortiranje,
  * za dodavanje čvorova na početak liste i ispis.
- * @author saaffa
+ * @author Jasmin Zukić
  *
  */
 class ProgramListe {

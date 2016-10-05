@@ -2,16 +2,21 @@ package hr.fer.zemris.java.tecaj.hw1;
 
 /**
  * Lists first N prime numbers which it gets from it's argument.
- * @author saaffa
+ * @author Jasmin Zukić
  *
  */
 public class PrimeNumbers {
 	
 	/**
-	 * Main method that lists prime numbers in standard output.
+	 * Main method that lists prime numbers in standard output. Expects one argument from 
+	 * the command line. Other arguments are ignored.
 	 * @param args Number of primes to calculate.
 	 */
 	public static void main(String[] args) {
+		if(args.length == 0) {
+			System.out.println("No arguments given. Try a number bigger or equal than 1.");
+			return;
+		}
 		int number = Integer.parseInt(args[0]);
 		if(number < 1) {
 			System.out.println("Requested number is smaller than 1. Try again.");
